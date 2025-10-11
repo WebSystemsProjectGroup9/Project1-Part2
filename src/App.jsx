@@ -12,7 +12,7 @@ function App() {
         <Navbar />
         <Routes>
           {/* keep root redirect if you want, but point to index route in SPA */}
-          <Route path="/" element={<Navigate to="/" replace />} />
+          <Route path="/" element={<SignIn />} />
           <Route path="/signin" element={<SignIn />} />
         </Routes>
       </Router>
