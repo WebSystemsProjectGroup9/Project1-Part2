@@ -7,7 +7,7 @@ import Offcanvas from 'react-bootstrap/Offcanvas';
 import { LogIn, UserPlus, Eye, LogOut } from "lucide-react";
 import { useToast } from '../context/ToastContext';
 import { useTheme } from '../context/ThemeContext'; 
-import loginImage from "../assets/Login.png"
+import loginImage from "../assets/login.png"
 
 function SignIn() {
   const { theme, toggleTheme } = useTheme();
